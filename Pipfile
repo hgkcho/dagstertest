@@ -1,0 +1,19 @@
+[[source]]
+url = "https://github.com/hgkcho/dagstertest"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dagster = "*"
+dagster-webserver = "*"
+pandas = "*"
+dagster-slack = "*"
+
+[dev-packages]
+pyright = "*"
+black = "*"
+isort = "*"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.7"
